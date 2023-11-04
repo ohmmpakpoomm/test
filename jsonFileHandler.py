@@ -6,4 +6,4 @@ def readJsonFile(fileName):
             data = json.load(json_file)
     except IOError:
         print("Could not read file")
-    return data
+    return date
